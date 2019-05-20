@@ -38,3 +38,4 @@ $('.shopping-list').on('click', '.shopping-item-delete', function(event) {
 
 
 $(shoppingList);
+
