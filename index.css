@@ -1,7 +1,7 @@
 body * {
 	box-sizing: border-box;
 	font-family: Archivo;
-	
+
 }
 
 html, body {
@@ -64,7 +64,7 @@ button:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
- 
+  
   
 }
 
@@ -140,7 +140,7 @@ label {
 	top: 10em;
 }
 
-@media only screen and (min-width: 520px) {
+@media only screen and (min-width: 360px) {
 	#question-count, #score-count {
 		display: inline-block;
 		font-size: 1.8em;
@@ -161,14 +161,22 @@ label {
 	}
 }
 
-@media only screen and (min-width: 520px) {
+@media only screen and (min-width: 650px) {
 	.feedback-page img {
 		display: block;
-		width: 520px;
+		width: 650px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 }
+
+@media only screen and (min-width: 1000px) {
+	.feedback-page h2 {
+		width: 650px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 0;
+	}
 
 
 
@@ -185,3 +193,4 @@ label {
 		padding-right: 8em;
 		padding-bottom: 1px;
 	}
+}
