@@ -140,7 +140,7 @@ label {
 	top: 10em;
 }
 
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: 520px) {
 	#question-count, #score-count {
 		display: inline-block;
 		font-size: 1.8em;
@@ -161,18 +161,18 @@ label {
 	}
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 520px) {
 	.feedback-page img {
 		display: block;
-		width: 650px;
+		width: 520px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 520px) {
 	.feedback-page h2 {
-		width: 650px;
+		width: 520px;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 0;
